@@ -70,10 +70,10 @@
             },
             "item": { "justify": "right" },
             "order": ["date", "toolbar"],
-            "edit": false
+            "edit": true
         },
         "bookmark": {
-            "edit": false,
+            "edit": true,
             "style": "block",
             "show": true,
             "add": false,
@@ -91,7 +91,7 @@
             "name": { "size": 100 },
             "order": "header-body",
             "add": false,
-            "edit": false,
+            "edit": true,
             "toolbar": { "size": 100 }
         },
         "toolbar": {
@@ -263,7 +263,7 @@
                 },
                 "type": "image",
                 "image": {
-                    "url": "https://github.com/leo9iota/dotfiles/blob/master/windows/assets/images/mashiro-shiina.png?raw=true",
+                    "url": "https://github.com/leo9iota/windows-dotfiles/blob/master/assets/images/mashiro-shiina.png?raw=true",
                     "blur": 0,
                     "opacity": 100,
                     "scale": 100,
@@ -303,7 +303,7 @@
                             "type": "image",
                             "letter": { "text": "YouTube" },
                             "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/226a427359ae25d4753c4a5d04ed0fca6d9f7719/windows/assets/icons/youtube.svg"
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/youtube.svg"
                             },
                             "icon": { "name": "youtube", "prefix": "fab", "label": "YouTube" },
                             "shadow": { "size": 0 },
@@ -347,7 +347,7 @@
                             "type": "image",
                             "letter": { "text": "Gmail" },
                             "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/226a427359ae25d4753c4a5d04ed0fca6d9f7719/windows/assets/icons/gmail.svg"
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/gmail.svg"
                             },
                             "icon": { "name": "envelope", "prefix": "fas", "label": "Envelope" },
                             "shadow": { "size": 0 },
@@ -391,7 +391,7 @@
                             "type": "image",
                             "letter": { "text": "Calendar" },
                             "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/636e964139d82cd572b3f82b5b717e27775faace/windows/assets/icons/gcp.svg"
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/gcp.svg"
                             },
                             "icon": {
                                 "name": "calendar-alt",
@@ -443,7 +443,7 @@
                             "letter": { "text": "DigitalOcean" },
                             "icon": { "name": "", "prefix": "", "label": "" },
                             "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/226a427359ae25d4753c4a5d04ed0fca6d9f7719/windows/assets/icons/chatgpt.svg"
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/chatgpt.svg"
                             },
                             "shadow": { "size": 0 }
                         }
@@ -487,7 +487,7 @@
                             "letter": { "text": "" },
                             "icon": { "name": "", "prefix": "", "label": "" },
                             "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/fa5a74023c65f7597d5a4de5216ef68b18f455ab/windows/assets/icons/grok.svg"
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/grok.svg"
                             },
                             "shadow": { "size": 0 }
                         }
@@ -531,7 +531,7 @@
                             "letter": { "text": "" },
                             "icon": { "name": "", "prefix": "", "label": "" },
                             "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/fa5a74023c65f7597d5a4de5216ef68b18f455ab/windows/assets/icons/nuxt.svg"
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/nuxt.svg"
                             },
                             "shadow": { "size": 0 }
                         }
@@ -575,7 +575,7 @@
                             "letter": { "text": "GitHub" },
                             "icon": { "name": "", "prefix": "", "label": "" },
                             "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/636e964139d82cd572b3f82b5b717e27775faace/windows/assets/icons/github.svg"
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/github.svg"
                             },
                             "shadow": { "size": 0 }
                         }
@@ -615,7 +615,7 @@
                             "type": "image",
                             "letter": { "text": "DEV" },
                             "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/636e964139d82cd572b3f82b5b717e27775faace/windows/assets/icons/vercel.svg"
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/vercel.svg"
                             },
                             "icon": {
                                 "name": "arrow-alt-circle-down",
@@ -667,7 +667,7 @@
                             "letter": { "text": "" },
                             "icon": { "name": "", "prefix": "", "label": "" },
                             "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/636e964139d82cd572b3f82b5b717e27775faace/windows/assets/icons/cloudflare.svg"
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/cloudflare.svg"
                             },
                             "shadow": { "size": 0 }
                         }
@@ -711,7 +711,7 @@
                             "letter": { "text": "" },
                             "icon": { "name": "", "prefix": "", "label": "" },
                             "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/fa5a74023c65f7597d5a4de5216ef68b18f455ab/windows/assets/icons/binance.svg"
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/binance.svg"
                             },
                             "shadow": { "size": 0 }
                         }
@@ -751,7 +751,7 @@
                             "type": "image",
                             "letter": { "text": "Proton" },
                             "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/636e964139d82cd572b3f82b5b717e27775faace/windows/assets/icons/kraken.svg"
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/kraken.svg"
                             },
                             "icon": { "name": "", "prefix": "", "label": "" },
                             "shadow": { "size": 0 },
@@ -799,7 +799,7 @@
                             "letter": { "text": "" },
                             "icon": { "name": "", "prefix": "", "label": "" },
                             "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/02320a4b0716c445e84ccbc3c1b7ef9658a82d09/windows/assets/icons/coinbase.svg"
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/coinbase.svg"
                             },
                             "shadow": { "size": 0 }
                         }
@@ -843,7 +843,7 @@
                             "letter": { "text": "" },
                             "icon": { "name": "", "prefix": "", "label": "" },
                             "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/fa5a74023c65f7597d5a4de5216ef68b18f455ab/windows/assets/icons/tradingview.svg"
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/tradingview.svg"
                             },
                             "shadow": { "size": 0 }
                         }
@@ -871,50 +871,6 @@
                     "timestamp": 1746056075186
                 },
                 {
-                    "url": "https://web.whatsapp.com/",
-                    "display": {
-                        "alignment": "center-center",
-                        "direction": "vertical",
-                        "order": "visual-name",
-                        "rotate": 0,
-                        "translate": { "x": 0, "y": 0 },
-                        "gutter": 25,
-                        "name": { "show": false, "text": "", "size": 7 },
-                        "visual": {
-                            "show": true,
-                            "type": "image",
-                            "size": 50,
-                            "letter": { "text": "" },
-                            "icon": { "name": "", "prefix": "", "label": "" },
-                            "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/02320a4b0716c445e84ccbc3c1b7ef9658a82d09/windows/assets/icons/whatsapp.svg"
-                            },
-                            "shadow": { "size": 0 }
-                        }
-                    },
-                    "accent": {
-                        "by": "custom",
-                        "hsl": { "h": 142, "s": 70, "l": 49 },
-                        "rgb": { "r": 37, "g": 211, "b": 102 }
-                    },
-                    "color": {
-                        "by": "theme",
-                        "hsl": { "h": 0, "s": 0, "l": 0 },
-                        "rgb": { "r": 0, "g": 0, "b": 0 },
-                        "opacity": 0
-                    },
-                    "background": {
-                        "show": false,
-                        "type": "image",
-                        "opacity": 100,
-                        "image": { "url": "" },
-                        "video": { "url": "" }
-                    },
-                    "border": 2,
-                    "shape": { "wide": false, "tall": false },
-                    "timestamp": 1746057086521
-                },
-                {
                     "url": "https://web.telegram.org/a/",
                     "display": {
                         "alignment": "center-center",
@@ -931,7 +887,7 @@
                             "letter": { "text": "" },
                             "icon": { "name": "", "prefix": "", "label": "" },
                             "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/636e964139d82cd572b3f82b5b717e27775faace/windows/assets/icons/telegram.svg"
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/telegram.svg"
                             },
                             "shadow": { "size": 0 }
                         }
@@ -975,7 +931,7 @@
                             "letter": { "text": "" },
                             "icon": { "name": "", "prefix": "", "label": "" },
                             "image": {
-                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/636e964139d82cd572b3f82b5b717e27775faace/windows/assets/icons/discord.svg"
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/discord.svg"
                             },
                             "shadow": { "size": 0 }
                         }
@@ -1001,6 +957,50 @@
                     "border": 2,
                     "shape": { "wide": false, "tall": false },
                     "timestamp": 1671118846523
+                },
+                {
+                    "url": "https://web.whatsapp.com/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "gutter": 25,
+                        "name": { "show": false, "text": "", "size": 7 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 50,
+                            "letter": { "text": "" },
+                            "icon": { "name": "", "prefix": "", "label": "" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/windows-dotfiles/d8908f6d2ccf5245b5d9f80f6e806f5afad7f039/assets/icons/whatsapp.svg"
+                            },
+                            "shadow": { "size": 0 }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 142, "s": 70, "l": 49 },
+                        "rgb": { "r": 37, "g": 211, "b": 102 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false },
+                    "timestamp": 1746057086521
                 }
             ],
             "toolbar": { "openAll": { "show": false }, "collapse": { "show": true } },
