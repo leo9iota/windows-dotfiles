@@ -1,0 +1,1010 @@
+{
+    "nightTab": true,
+    "version": "7.5.0",
+    "state": {
+        "language": "system",
+        "layout": {
+            "width": 72,
+            "title": "",
+            "alignment": "center-center",
+            "padding": 60,
+            "gutter": 20,
+            "order": "bookmark-header",
+            "size": 100,
+            "direction": "vertical",
+            "scrollbar": "none",
+            "overscroll": { "active": false, "unblur": false },
+            "area": {
+                "header": { "width": 100, "justify": "center" },
+                "bookmark": { "width": 100, "justify": "center" }
+            },
+            "breakpoint": "md",
+            "favicon": ""
+        },
+        "header": {
+            "clock": {
+                "separator": { "show": true, "text": "" },
+                "meridiem": { "show": false },
+                "hour24": { "show": false },
+                "size": 100,
+                "newLine": false,
+                "hour": { "show": false, "display": "number" },
+                "minute": { "show": false, "display": "number" },
+                "second": { "show": false, "display": "number" }
+            },
+            "date": {
+                "day": { "show": true, "display": "word", "weekStart": "monday", "length": "long" },
+                "date": { "show": true, "display": "number", "ordinal": true },
+                "month": { "show": true, "display": "word", "length": "long", "ordinal": true },
+                "year": { "show": true, "display": "number" },
+                "separator": { "show": false, "text": "" },
+                "format": "date-month",
+                "size": 100,
+                "newLine": false
+            },
+            "search": {
+                "show": false,
+                "engine": {
+                    "selected": "giphy",
+                    "custom": { "url": "", "name": "", "queryName": "" }
+                },
+                "width": { "by": "auto", "size": 26 },
+                "text": { "justify": "center" },
+                "size": 100,
+                "newLine": false,
+                "newTab": false
+            },
+            "greeting": {
+                "show": false,
+                "type": "good",
+                "name": "",
+                "size": 100,
+                "newLine": false,
+                "custom": ""
+            },
+            "transitional": {
+                "show": false,
+                "type": "time-and-date",
+                "size": 100,
+                "newLine": false
+            },
+            "item": { "justify": "right" },
+            "order": ["date", "toolbar"],
+            "edit": false
+        },
+        "bookmark": {
+            "edit": false,
+            "style": "block",
+            "show": true,
+            "add": false,
+            "orientation": "bottom",
+            "url": { "show": true },
+            "line": { "show": false },
+            "shadow": { "show": true },
+            "hoverScale": { "show": true },
+            "size": 100,
+            "item": {},
+            "newTab": false
+        },
+        "group": {
+            "area": { "justify": "left" },
+            "name": { "size": 100 },
+            "order": "header-body",
+            "add": false,
+            "edit": false,
+            "toolbar": { "size": 100 }
+        },
+        "toolbar": {
+            "location": "header",
+            "position": "bottom-right",
+            "size": 100,
+            "accent": { "show": true },
+            "add": { "show": true },
+            "edit": { "show": true },
+            "newLine": false
+        },
+        "theme": {
+            "accent": {
+                "random": { "active": false, "style": "light" },
+                "rgb": { "r": 255, "g": 255, "b": 255 },
+                "cycle": { "active": false, "speed": 1000, "step": 60 },
+                "hsl": { "h": 0, "s": 0, "l": 100 }
+            },
+            "style": "dark",
+            "radius": 75,
+            "color": {
+                "contrast": { "start": 13, "end": 100 },
+                "shades": 14,
+                "range": { "primary": { "h": 0, "s": 0 } }
+            },
+            "font": {
+                "display": { "name": "Baloo 2", "weight": 400, "style": "normal" },
+                "ui": { "name": "", "weight": 400, "style": "normal" }
+            },
+            "custom": {
+                "all": [
+                    {
+                        "name": "My custom theme",
+                        "color": {
+                            "range": { "primary": { "h": 0, "s": 0, "l": 21 } },
+                            "contrast": { "start": 13, "end": 100 }
+                        },
+                        "accent": {
+                            "hsl": { "h": 179, "s": 100, "l": 50 },
+                            "rgb": { "r": 0, "g": 255, "b": 252 }
+                        },
+                        "font": {
+                            "display": { "name": "Baloo 2", "weight": 400, "style": "normal" },
+                            "ui": { "name": "", "weight": 400, "style": "normal" }
+                        },
+                        "background": {
+                            "color": {
+                                "rgb": { "r": 0, "g": 0, "b": 0 },
+                                "hsl": { "h": 0, "s": 0, "l": 0 }
+                            },
+                            "gradient": {
+                                "angle": 160,
+                                "start": {
+                                    "hsl": { "h": 206, "s": 16, "l": 40 },
+                                    "rgb": { "r": 86, "g": 104, "b": 118 }
+                                },
+                                "end": {
+                                    "hsl": { "h": 219, "s": 28, "l": 12 },
+                                    "rgb": { "r": 22, "g": 28, "b": 39 }
+                                }
+                            },
+                            "type": "image",
+                            "image": {
+                                "url": "https://images.unsplash.com/photo-1472803828399-39d4ac53c6e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3442&q=80",
+                                "blur": 2,
+                                "opacity": 50,
+                                "scale": 100,
+                                "grayscale": 0,
+                                "accent": 0,
+                                "vignette": { "opacity": 30, "start": 90, "end": 70 }
+                            },
+                            "video": {
+                                "url": "",
+                                "blur": 2,
+                                "opacity": 50,
+                                "scale": 100,
+                                "grayscale": 0,
+                                "accent": 0,
+                                "vignette": { "opacity": 30, "start": 90, "end": 70 }
+                            }
+                        },
+                        "radius": 50,
+                        "shadow": 25,
+                        "style": "dark",
+                        "shade": { "opacity": 10, "blur": 0 },
+                        "opacity": { "general": 100 },
+                        "layout": {
+                            "color": {
+                                "by": "theme",
+                                "opacity": 10,
+                                "hsl": { "h": 0, "s": 0, "l": 0 },
+                                "rgb": { "r": 0, "g": 0, "b": 0 },
+                                "blur": 0
+                            },
+                            "divider": { "size": 0 }
+                        },
+                        "header": {
+                            "color": {
+                                "by": "theme",
+                                "opacity": 95,
+                                "hsl": { "h": 0, "s": 0, "l": 0 },
+                                "rgb": { "r": 0, "g": 0, "b": 0 }
+                            },
+                            "search": { "opacity": 0 }
+                        },
+                        "bookmark": {
+                            "color": {
+                                "by": "theme",
+                                "opacity": 10,
+                                "hsl": { "h": 0, "s": 0, "l": 0 },
+                                "rgb": { "r": 0, "g": 0, "b": 0 }
+                            },
+                            "item": { "border": 0, "opacity": 100 }
+                        },
+                        "group": { "toolbar": { "opacity": 100 } },
+                        "toolbar": { "opacity": 100 }
+                    }
+                ],
+                "edit": false
+            },
+            "shadow": 75,
+            "shade": { "opacity": 10, "blur": 0 },
+            "opacity": { "general": 100 },
+            "group": { "toolbar": { "opacity": 100 } },
+            "toolbar": { "opacity": 100 },
+            "layout": {
+                "color": {
+                    "by": "theme",
+                    "opacity": 10,
+                    "hsl": { "h": 0, "s": 0, "l": 0 },
+                    "rgb": { "r": 0, "g": 0, "b": 0 },
+                    "blur": 0
+                },
+                "divider": { "size": 0 }
+            },
+            "header": {
+                "color": {
+                    "by": "theme",
+                    "opacity": 95,
+                    "hsl": { "h": 0, "s": 0, "l": 0 },
+                    "rgb": { "r": 0, "g": 0, "b": 0 }
+                },
+                "search": { "opacity": 100 }
+            },
+            "bookmark": {
+                "color": {
+                    "by": "theme",
+                    "opacity": 10,
+                    "hsl": { "h": 0, "s": 0, "l": 0 },
+                    "rgb": { "r": 0, "g": 0, "b": 0 }
+                },
+                "item": { "border": 0, "opacity": 0 }
+            },
+            "background": {
+                "color": {
+                    "rgb": { "r": 51, "g": 51, "b": 51 },
+                    "hsl": { "h": 0, "s": 0, "l": 20 }
+                },
+                "gradient": {
+                    "angle": 92,
+                    "start": {
+                        "hsl": { "h": 0, "s": 0, "l": 14 },
+                        "rgb": { "r": 35, "g": 35, "b": 35 }
+                    },
+                    "end": {
+                        "hsl": { "h": 201, "s": 100, "l": 36 },
+                        "rgb": { "r": 0, "g": 119, "b": 184 }
+                    }
+                },
+                "type": "image",
+                "image": {
+                    "url": "https://github.com/leo9iota/dotfiles/blob/master/windows/assets/images/mashiro-shiina.png?raw=true",
+                    "blur": 0,
+                    "opacity": 100,
+                    "scale": 100,
+                    "grayscale": 0,
+                    "accent": 0,
+                    "vignette": { "opacity": 0, "start": 90, "end": 70 }
+                },
+                "video": {
+                    "url": "",
+                    "blur": 2,
+                    "opacity": 50,
+                    "scale": 100,
+                    "grayscale": 0,
+                    "accent": 0,
+                    "vignette": { "opacity": 30, "start": 90, "end": 70 }
+                }
+            }
+        },
+        "search": false,
+        "modal": false,
+        "menu": true
+    },
+    "bookmark": [
+        {
+            "name": { "show": false, "text": "Cool stuff" },
+            "items": [
+                {
+                    "display": {
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "alignment": "center-center",
+                        "gutter": 20,
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "letter": { "text": "YouTube" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/226a427359ae25d4753c4a5d04ed0fca6d9f7719/windows/assets/icons/youtube.svg"
+                            },
+                            "icon": { "name": "youtube", "prefix": "fab", "label": "YouTube" },
+                            "shadow": { "size": 0 },
+                            "size": 50
+                        },
+                        "name": { "show": false, "text": "Reddit", "size": 7 }
+                    },
+                    "url": "https://www.youtube.com/",
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 358, "s": 84, "l": 53 },
+                        "rgb": { "r": 236, "g": 32, "b": 39 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "timestamp": 1546453111491,
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false }
+                },
+                {
+                    "display": {
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "alignment": "center-center",
+                        "gutter": 20,
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "letter": { "text": "Gmail" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/226a427359ae25d4753c4a5d04ed0fca6d9f7719/windows/assets/icons/gmail.svg"
+                            },
+                            "icon": { "name": "envelope", "prefix": "fas", "label": "Envelope" },
+                            "shadow": { "size": 0 },
+                            "size": 50
+                        },
+                        "name": { "show": false, "text": "Netflix", "size": 7 }
+                    },
+                    "url": "https://mail.google.com/",
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 136, "s": 53, "l": 43 },
+                        "rgb": { "r": 52, "g": 168, "b": 83 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "timestamp": 1546453104460,
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false }
+                },
+                {
+                    "display": {
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "alignment": "center-center",
+                        "gutter": 20,
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "letter": { "text": "Calendar" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/636e964139d82cd572b3f82b5b717e27775faace/windows/assets/icons/gcp.svg"
+                            },
+                            "icon": {
+                                "name": "calendar-alt",
+                                "prefix": "fas",
+                                "label": "Alternate Calendar"
+                            },
+                            "shadow": { "size": 0 },
+                            "size": 50
+                        },
+                        "name": { "show": false, "text": "awesomeSheet", "size": 7 }
+                    },
+                    "url": "https://cloud.google.com/",
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 217, "s": 89, "l": 61 },
+                        "rgb": { "r": 66, "g": 133, "b": 244 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "timestamp": 1546453104010,
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false }
+                },
+                {
+                    "url": "https://chatgpt.com/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "gutter": 25,
+                        "name": { "show": false, "text": "", "size": 7 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 50,
+                            "letter": { "text": "DigitalOcean" },
+                            "icon": { "name": "", "prefix": "", "label": "" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/226a427359ae25d4753c4a5d04ed0fca6d9f7719/windows/assets/icons/chatgpt.svg"
+                            },
+                            "shadow": { "size": 0 }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 164, "s": 24, "l": 56 },
+                        "rgb": { "r": 116, "g": 170, "b": 156 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 164, "s": 24, "l": 56 },
+                        "rgb": { "r": 116, "g": 170, "b": 156 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false },
+                    "timestamp": 1663522951504
+                },
+                {
+                    "url": "https://grok.com/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "gutter": 25,
+                        "name": { "show": false, "text": "", "size": 7 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 50,
+                            "letter": { "text": "" },
+                            "icon": { "name": "", "prefix": "", "label": "" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/fa5a74023c65f7597d5a4de5216ef68b18f455ab/windows/assets/icons/grok.svg"
+                            },
+                            "shadow": { "size": 0 }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false },
+                    "timestamp": 1746056219236
+                },
+                {
+                    "url": "https://nuxt.com/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "gutter": 25,
+                        "name": { "show": false, "text": "", "size": 5 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 50,
+                            "letter": { "text": "" },
+                            "icon": { "name": "", "prefix": "", "label": "" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/fa5a74023c65f7597d5a4de5216ef68b18f455ab/windows/assets/icons/nuxt.svg"
+                            },
+                            "shadow": { "size": 0 }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 155, "s": 100, "l": 43 },
+                        "rgb": { "r": 0, "g": 220, "b": 130 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false },
+                    "timestamp": 1746055971048
+                },
+                {
+                    "url": "https://github.com/leo9iota",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "gutter": 25,
+                        "name": { "show": false, "text": "", "size": 7 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 50,
+                            "letter": { "text": "GitHub" },
+                            "icon": { "name": "", "prefix": "", "label": "" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/636e964139d82cd572b3f82b5b717e27775faace/windows/assets/icons/github.svg"
+                            },
+                            "shadow": { "size": 0 }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 210, "s": 67, "l": 96 },
+                        "rgb": { "r": 240, "g": 246, "b": 252 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false },
+                    "timestamp": 1663522709200
+                },
+                {
+                    "display": {
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "alignment": "center-center",
+                        "gutter": 20,
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "letter": { "text": "DEV" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/636e964139d82cd572b3f82b5b717e27775faace/windows/assets/icons/vercel.svg"
+                            },
+                            "icon": {
+                                "name": "arrow-alt-circle-down",
+                                "prefix": "fas",
+                                "label": "Alternate Arrow Circle Down"
+                            },
+                            "shadow": { "size": 0 },
+                            "size": 50
+                        },
+                        "name": { "show": false, "text": "Devdocs", "size": 7 }
+                    },
+                    "url": "https://vercel.com/",
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "timestamp": 1546453101749,
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false }
+                },
+                {
+                    "url": "https://www.cloudflare.com/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "gutter": 25,
+                        "name": { "show": false, "text": "", "size": 7 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 50,
+                            "letter": { "text": "" },
+                            "icon": { "name": "", "prefix": "", "label": "" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/636e964139d82cd572b3f82b5b717e27775faace/windows/assets/icons/cloudflare.svg"
+                            },
+                            "shadow": { "size": 0 }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 27, "s": 90, "l": 54 },
+                        "rgb": { "r": 243, "g": 128, "b": 32 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false },
+                    "timestamp": 1671118775122
+                },
+                {
+                    "url": "https://www.binance.com/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "gutter": 25,
+                        "name": { "show": false, "text": "", "size": 7 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 50,
+                            "letter": { "text": "" },
+                            "icon": { "name": "", "prefix": "", "label": "" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/fa5a74023c65f7597d5a4de5216ef68b18f455ab/windows/assets/icons/binance.svg"
+                            },
+                            "shadow": { "size": 0 }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 43, "s": 89, "l": 57 },
+                        "rgb": { "r": 243, "g": 186, "b": 47 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false },
+                    "timestamp": 1746056150929
+                },
+                {
+                    "display": {
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "alignment": "center-center",
+                        "gutter": 20,
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "letter": { "text": "Proton" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/636e964139d82cd572b3f82b5b717e27775faace/windows/assets/icons/kraken.svg"
+                            },
+                            "icon": { "name": "", "prefix": "", "label": "" },
+                            "shadow": { "size": 0 },
+                            "size": 50
+                        },
+                        "name": { "show": false, "text": "Amazon", "size": 7 }
+                    },
+                    "url": "https://pro.kraken.com/app/home",
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 249, "s": 67, "l": 55 },
+                        "rgb": { "r": 87, "g": 65, "b": 217 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "timestamp": 1546453107633,
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false }
+                },
+                {
+                    "url": "https://www.coinbase.com/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "gutter": 25,
+                        "name": { "show": false, "text": "", "size": 7 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 50,
+                            "letter": { "text": "" },
+                            "icon": { "name": "", "prefix": "", "label": "" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/02320a4b0716c445e84ccbc3c1b7ef9658a82d09/windows/assets/icons/coinbase.svg"
+                            },
+                            "shadow": { "size": 0 }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 221, "s": 100, "l": 50 },
+                        "rgb": { "r": 0, "g": 82, "b": 255 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false },
+                    "timestamp": 1746057201123
+                },
+                {
+                    "url": "https://www.tradingview.com/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "gutter": 25,
+                        "name": { "show": false, "text": "", "size": 7 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 50,
+                            "letter": { "text": "" },
+                            "icon": { "name": "", "prefix": "", "label": "" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/fa5a74023c65f7597d5a4de5216ef68b18f455ab/windows/assets/icons/tradingview.svg"
+                            },
+                            "shadow": { "size": 0 }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 224, "s": 28, "l": 10 },
+                        "rgb": { "r": 19, "g": 23, "b": 34 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false },
+                    "timestamp": 1746056075186
+                },
+                {
+                    "url": "https://web.whatsapp.com/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "gutter": 25,
+                        "name": { "show": false, "text": "", "size": 7 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 50,
+                            "letter": { "text": "" },
+                            "icon": { "name": "", "prefix": "", "label": "" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/02320a4b0716c445e84ccbc3c1b7ef9658a82d09/windows/assets/icons/whatsapp.svg"
+                            },
+                            "shadow": { "size": 0 }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 142, "s": 70, "l": 49 },
+                        "rgb": { "r": 37, "g": 211, "b": 102 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false },
+                    "timestamp": 1746057086521
+                },
+                {
+                    "url": "https://web.telegram.org/a/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "gutter": 25,
+                        "name": { "show": false, "text": "", "size": 7 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 50,
+                            "letter": { "text": "" },
+                            "icon": { "name": "", "prefix": "", "label": "" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/636e964139d82cd572b3f82b5b717e27775faace/windows/assets/icons/telegram.svg"
+                            },
+                            "shadow": { "size": 0 }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 200, "s": 78, "l": 52 },
+                        "rgb": { "r": 38, "g": 164, "b": 228 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false },
+                    "timestamp": 1671118601837
+                },
+                {
+                    "url": "https://discord.com/",
+                    "display": {
+                        "alignment": "center-center",
+                        "direction": "vertical",
+                        "order": "visual-name",
+                        "rotate": 0,
+                        "translate": { "x": 0, "y": 0 },
+                        "gutter": 25,
+                        "name": { "show": false, "text": "", "size": 7 },
+                        "visual": {
+                            "show": true,
+                            "type": "image",
+                            "size": 50,
+                            "letter": { "text": "" },
+                            "icon": { "name": "", "prefix": "", "label": "" },
+                            "image": {
+                                "url": "https://raw.githubusercontent.com/leo9iota/dotfiles/636e964139d82cd572b3f82b5b717e27775faace/windows/assets/icons/discord.svg"
+                            },
+                            "shadow": { "size": 0 }
+                        }
+                    },
+                    "accent": {
+                        "by": "custom",
+                        "hsl": { "h": 235, "s": 86, "l": 65 },
+                        "rgb": { "r": 88, "g": 101, "b": 242 }
+                    },
+                    "color": {
+                        "by": "theme",
+                        "hsl": { "h": 0, "s": 0, "l": 0 },
+                        "rgb": { "r": 0, "g": 0, "b": 0 },
+                        "opacity": 0
+                    },
+                    "background": {
+                        "show": false,
+                        "type": "image",
+                        "opacity": 100,
+                        "image": { "url": "" },
+                        "video": { "url": "" }
+                    },
+                    "border": 2,
+                    "shape": { "wide": false, "tall": false },
+                    "timestamp": 1671118846523
+                }
+            ],
+            "toolbar": { "openAll": { "show": false }, "collapse": { "show": true } },
+            "collapse": false
+        }
+    ]
+}
